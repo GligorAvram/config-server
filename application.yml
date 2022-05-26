@@ -1,5 +1,5 @@
 eureka:
   client:
-    eureka-server-u-r-l-context: http://localhost:8761/eureka
+    eureka-server-u-r-l-context: http://localhost:9003/eureka
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://localhost:9003/eureka}
